@@ -9,7 +9,6 @@ const connectDB = async () => {
     console.log(
       `\n MongoDB is Connected !! DB HOST :=> ${connectionInstance.connection.host}`
     );
-    console.log(`⚙︎ Server is runnig on http://localhost:${process.env.PORT}`);
   } catch (error) {
     console.error("MONGODB Connectin FAILD !!!! :", error);
     throw error;
